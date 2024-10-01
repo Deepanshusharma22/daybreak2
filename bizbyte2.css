@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #805652;
+}
+.hero-section{
+    background-color: hwb(171 73% 7%);
+    width: 100%
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 6rem;
+    width: 12rem;
+}
+.logo{
+    background-image: url("Logo.png");
+    background-size: cover;
+    height: 5rem ;
+    width: 100%;
+}
+.nav{
+    background-color: #ffffff;
+    width: 72rem;
+    height: 7rem;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    
+}
+.content{
+    margin-top: 70px;
+    margin-left: 100px;
+    display: flex;
+}
+.gran{
+    font-size: 2rem;
+    width: 50rem;
+}
+.gran p{
+    font-size: 3rem;
+}
+.intro{
+    font-size: 1rem;
+}
+.contact{
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px #805652 solid;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+.model{
+    height: 35rem;
+    width: 50rem;
+}
+.img{
+    background-image: url("BizByte.png");
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+a:hover{
+    color: red;
+    font-size: 1.5rem;
+}
+.main-container {
+    width: 45rem;
+    margin: 40px auto;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom: 3px solid #023047;
+    position: relative;
+    left: 370px;
+  }
+  
+  .video-container {
+    position: relative;
+  }
+  
+  .video-container video {
+    width: 100%;
+  }
+  
+  .video-container .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(calc(-50% - 24px), -50%);
+    background: #023047;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    pointer-events: none;
+    box-shadow: 4px 4px 50px -4px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    letter-spacing: 0.8px;
+    transition: all 400ms ease;
+  }
+  
+  .video-container .hover-text.active {
+    opacity: 1;
+    letter-spacing: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .video-description {
+    padding: 16px;
+    line-height: 1.7;
+    background: #edf6f9;
+    color: #023047;
+    text-align: center;
+    font-size: 18px;
+  }
